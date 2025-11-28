@@ -21,16 +21,8 @@ export default function Contact() {
       return;
     }
 
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
-      setFormStatus({
-        message: "Please enter a valid email address.",
-        type: "error",
-      });
-      return;
-    }
-
-    // Simulate form submission
+    // Note: For production, replace this with actual form submission logic
+    // (e.g., API call to a backend service or form handling service like Formspree)
     setFormStatus({
       message: "Thank you for your message! I will get back to you soon.",
       type: "success",

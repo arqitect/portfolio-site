@@ -7,26 +7,29 @@ export default function Footer() {
         <p>&copy; {currentYear} John Doe. All rights reserved.</p>
         <div className="flex gap-6">
           <a
-            href="https://github.com"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-400 transition-colors"
+            aria-label="GitHub profile (update with your URL)"
           >
             GitHub
           </a>
           <a
-            href="https://linkedin.com"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-400 transition-colors"
+            aria-label="LinkedIn profile (update with your URL)"
           >
             LinkedIn
           </a>
           <a
-            href="https://twitter.com"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-400 transition-colors"
+            aria-label="Twitter profile (update with your URL)"
           >
             Twitter
           </a>
