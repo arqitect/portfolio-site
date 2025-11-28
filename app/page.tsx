@@ -239,7 +239,7 @@ export default function Home() {
             <span className="education-date">2014 - 2018</span>
           </div>
           <p className="education-details">
-            GPA: 3.8/4.0 · Dean&apos;s List · Relevant Coursework: Data Structures, Algorithms, 
+            GPA: 3.8/4.0 · Dean&#39;s List · Relevant Coursework: Data Structures, Algorithms, 
             Database Systems, Software Engineering, Machine Learning
           </p>
         </div>
